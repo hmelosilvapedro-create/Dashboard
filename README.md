@@ -117,38 +117,152 @@ Dashboard/
 
 ## Capturas de Tela do Dashboard
 
-### 1. Visão Geral Global
-![Visão Geral](screenshots/visao_geral.png)
+### 1. Visão Geral Global - Parte Superior
+![Visão Geral - Parte 1](data/1.png)
 
-Contexto: Esta tela fornece um panorama completo do mercado global de VEs, destacando as métricas mais importantes através de quatro indicadores principais: Total de Vendas Globais, Vendas em 2023, Número de Países com dados disponíveis, e Crescimento Médio Anual. O gráfico de barras horizontal apresenta os Top 10 mercados, com a China em destaque como líder absoluto. As métricas permitem aos usuários compreender rapidamente a magnitude do mercado e a concentração geográfica das vendas.
+Esta tela apresenta a seção inicial do dashboard com o título principal "Dashboard de Vendas de Veículos Elétricos" e a descrição do escopo (Análise global de vendas de veículos elétricos 2010-2023). Na lateral esquerda, a sidebar escura exibe os filtros interativos: um multiselect para seleção de países (China, United States, Germany pré-selecionados), um slider de período de análise configurado entre 2015 e 2023, e um botão "Atualizar Dados da API". 
 
----
+A área principal mostra quatro métricas KPI destacadas:
+- Total de Vendas Globais: 31,395,177 unidades (soma histórica 2010-2023)
+- Vendas em 2023: 13,606,132 unidades com crescimento de +31.6% vs 2022
+- Países: 35 países com dados disponíveis
+- Crescimento Médio Anual: 63.8% ao ano
 
-### 2. Tendências Temporais
-![Tendências](screenshots/tendencias.png)
-
-Contexto: A aba de tendências permite identificar padrões temporais através de um gráfico de linha mostrando a evolução exponencial das vendas globais de 2010 a 2023. A visualização inclui uma anotação destacando a aceleração pós-pandemia em 2020. A seção também apresenta uma tabela detalhada com crescimento ano a ano e um gráfico de barras comparando vendas por período (2010-2015, 2016-2020, 2021-2023), evidenciando como o mercado acelerou dramaticamente nos últimos anos, com crescimento de mais de 100x desde 2010.
-
----
-
-### 3. Comparação Entre Países
-![Comparação](screenshots/comparacao.png)
-
-Contexto: Esta é a seção mais interativa do dashboard, onde usuários podem comparar até 5 países simultaneamente através de um gráfico de linhas multicolorido. Os filtros na sidebar (multiselect de países e slider de anos) permitem análises personalizadas do período de interesse. A visualização inclui uma tabela detalhada com dados ano a ano e um gráfico de pizza mostrando participação de mercado, revelando a dominância chinesa no setor. Métricas individuais por país são exibidas lateralmente, mostrando totais e crescimento percentual no período selecionado.
+Estas métricas fornecem um panorama quantitativo imediato do mercado global de veículos elétricos, evidenciando a magnitude do setor e sua taxa de expansão acelerada.
 
 ---
 
-### 4. Explorador de Dados
-![Dados](screenshots/dados.png)
+### 2. Visão Geral Global - Parte Inferior
+![Visão Geral - Parte 2](data/1.1.png)
 
-Contexto: Esta aba permite exploração granular dos dados brutos através de três opções de visualização selecionáveis via botões de rádio. A primeira opção (Dados Globais) apresenta uma tabela com vendas mundiais anuais e crescimento percentual. A segunda opção (Dados por País) oferece um seletor dropdown para escolher um país específico e visualizar sua evolução detalhada com métricas calculadas incluindo crescimento percentual e variação absoluta. A terceira opção (Download Completo) exibe um preview do dataset com informações resumidas sobre sua estrutura, período coberto, número de registros e fonte dos dados.
+Continuação da primeira aba mostrando o gráfico de barras horizontais "Top 10 Mercados de Veículos Elétricos (2010-2023)". O gráfico apresenta os dez países com maiores vendas acumuladas no período, destacando:
+- China em primeiro lugar (cor azul mais escura) com 24,305,042 vendas, representando 56.4% do Top 10
+- United States em segundo com 4,100,594 vendas
+- Germany em terceiro com 2,182,111 vendas
+- Seguidos por France, United Kingdom, Norway, Japan, Netherlands, Sweden e Canada
+
+Dois insights informativos são exibidos abaixo do gráfico:
+- "China lidera com 24,305,042 vendas, mais que os próximos 5 países combinados"
+- "Há uma grande concentração de mercado onde o Top 3 países representam 70%+ das vendas globais"
+
+Este gráfico responde diretamente à pergunta-chave sobre quais são os principais mercados mundiais e revela a dominância chinesa no setor.
 
 ---
 
-### 5. Sidebar com Filtros
-![Sidebar](screenshots/sidebar.png)
+### 3. Tendências Temporais - Parte Superior
+![Tendências - Parte 1](data/2.png)
 
-Contexto: A sidebar centraliza todos os controles interativos do dashboard em um painel lateral com fundo escuro. O título "Filtros" separa visualmente a área de controles do conteúdo principal. O multiselect de países permite selecionar múltiplas nações para comparação (padrão: China, United States, Germany). O slider de período possibilita ajustar o intervalo temporal de análise (padrão: 2015 até o ano mais recente). O botão "Atualizar Dados da API" permite forçar nova busca de dados, limpando o cache local. Os filtros aplicam-se globalmente, afetando principalmente a aba de Comparação.
+Aba "Tendências" mostrando a evolução temporal das vendas globais. O cabeçalho apresenta o título "Evolução Temporal e Tendências" com descrição "Análise da trajetória de crescimento do mercado de VEs ao longo de 13 anos". 
+
+Logo abaixo, uma métrica textual destaca o crescimento total: "45,074 (2010) → 13,606,132 (2023) = +30,085%", evidenciando a expansão exponencial do mercado.
+
+O gráfico de linha com preenchimento de área mostra a curva de vendas anuais de 2010 a 2023, com uma anotação destacando "Aceleração pós-pandemia" no ano de 2020. A visualização revela claramente o crescimento acelerado a partir de 2015, com uma inflexão significativa após 2020, demonstrando como eventos globais e políticas de incentivo impactaram o mercado de veículos elétricos.
+
+---
+
+### 4. Tendências Temporais - Parte Inferior Esquerda
+![Tendências - Parte 2](data/2.2.png)
+
+Continuação da aba Tendências mostrando a seção "Crescimento Ano a Ano" com subtítulo "Variação percentual comparando cada ano ao anterior". 
+
+A tabela apresenta dados anuais de 2010 a 2023 com quatro colunas:
+- Ano
+- Vendas Totais (valores absolutos)
+- Novas vs Anterior (variação absoluta)
+- Crescimento % (taxa percentual)
+
+Exemplos de crescimento: 2011 (+73.7%), 2012 (+62.0%), 2021 (+103.9%), 2022 (+55.2%), 2023 (+31.6%). 
+
+Abaixo da tabela, um insight destaca: "Pico de crescimento: 2021.0 com +103.9%", identificando o ano de maior expansão percentual do mercado. Esta visualização responde à pergunta-chave sobre as taxas de crescimento anual, permitindo identificar períodos de aceleração e desaceleração.
+
+---
+
+### 5. Tendências Temporais - Parte Inferior Direita
+![Tendências - Parte 3](data/2.3.png)
+
+Seção "Vendas por Período" com subtítulo "Mostra como o mercado acelerou dramaticamente nos anos recentes". 
+
+Gráfico de barras verticais comparando três períodos:
+- 2010-2015: 1,183,176 vendas totais
+- 2016-2020: 5,559,893 vendas totais
+- 2021-2023: 24,652,108 vendas totais
+
+A diferença visual entre as barras é notável, com o período mais recente (2021-2023) sendo significativamente maior que os anteriores. Um insight verde de sucesso destaca: "2021-2023 teve 343% mais vendas que 2016-2020".
+
+Esta agregação por períodos responde à pergunta sobre padrões temporais, demonstrando que o crescimento não foi linear, mas sim exponencial, com aceleração dramática nos últimos três anos.
+
+---
+
+### 6. Comparação Entre Países - Parte Superior
+![Comparação - Parte 1](data/3.png)
+
+Aba "Comparação Entre Países" apresentando a funcionalidade mais interativa do dashboard. O gráfico de linhas múltiplas mostra a "Trajetória Comparativa" dos três países pré-selecionados (China, United States, Germany) no período 2015-2023.
+
+A legenda horizontal identifica cada país por cor (azul para China, tons variados para os demais). A escala do eixo Y mostra valores de vendas anuais até 10 milhões de unidades. A China apresenta crescimento acentuado especialmente após 2018, atingindo aproximadamente 8 milhões em 2022 e ultrapassando 9 milhões em 2023. United States e Germany apresentam crescimento mais modesto, mantendo-se abaixo de 1.5 milhões de vendas anuais.
+
+Este gráfico responde diretamente à pergunta-chave sobre como diferentes países se comparam em termos de adoção de VEs, revelando trajetórias distintas e a posição dominante da China.
+
+---
+
+### 7. Comparação Entre Países - Tabela Detalhada
+![Comparação - Parte 2](data/3.2.png)
+
+Seção "Análise Detalhada por Ano" com subtítulo "Compare vendas entre países e anos". 
+
+À esquerda, uma tabela pivotada mostra vendas anuais de 2015 a 2023 para China, Germany e United States, incluindo uma coluna "Total Anual" que soma as vendas dos três países em cada ano. Valores numéricos formatados permitem comparação direta ano a ano.
+
+À direita, uma seção "Insights" exibe métricas resumidas para cada país:
+- China: 19,779,858 vendas totais no período com +10,172% de crescimento
+- Germany: 1,831,690 vendas totais com +4,207% de crescimento
+- United States: 3,450,726 vendas totais com +5,143% de crescimento
+
+Estes números quantificam precisamente o desempenho de cada mercado, fornecendo dados para análise comparativa detalhada e respondendo sobre a concentração geográfica do mercado.
+
+---
+
+### 8. Comparação Entre Países - Participação de Mercado
+![Comparação - Parte 3](data/3.3..png)
+
+Seção "Participação de Mercado" apresentando um gráfico de rosca (donut chart) que visualiza a distribuição percentual das vendas entre os três países selecionados no período de análise (2015-2023).
+
+A distribuição mostra:
+- China: 78.9% (fatia azul dominante)
+- United States: 13.8% (fatia azul médio)
+- Germany: 7.3% (fatia azul claro)
+
+A dominância visual da China é evidente, ocupando aproximadamente três quartos do gráfico. O formato de rosca facilita a leitura percentual ao criar espaço central, enquanto as labels e percentuais são claramente exibidos para cada segmento.
+
+Este gráfico responde à pergunta sobre concentração de mercado, demonstrando visualmente que a China sozinha representa mais de três quartos das vendas quando comparada com EUA e Alemanha.
+
+---
+
+### 9. Comparação Entre Países - Insight Final
+![Comparação - Parte 4](data/3.4.png)
+
+Insight informativo em formato de card azul apresentando conclusão analítica: "China tem a maior participação com 78.9% das vendas entre o mercado de veículos elétricos, graças a políticas agressivas e incentivos para o uso desses veículos."
+
+Este texto contextualiza os dados apresentados, oferecendo uma interpretação qualitativa dos números e explicando os fatores por trás da liderança chinesa. A menção a políticas e incentivos governamentais adiciona dimensão explicativa à análise puramente quantitativa, conectando os dados a causas reais de mercado.
+
+O insight responde parcialmente à pergunta sobre padrões identificados nos dados históricos, sugerindo que políticas públicas são fator determinante no sucesso da adoção de veículos elétricos.
+
+---
+
+### 10. Explorador de Dados
+![Explorador de Dados](data/4.png)
+
+Aba "Explorador de Dados" com descrição "Acesse dados originais obtidos via API para análise personalizada ou download".
+
+Três botões de rádio permitem escolher entre: "Dados Globais", "Dados por País" e "Download Completo". A opção "Dados Globais" está selecionada, exibindo uma tabela com colunas:
+- Ano (2010 a 2023)
+- Vendas Globais (valores absolutos formatados)
+- Crescimento Anual % (taxas percentuais com sinal + ou -)
+
+A tabela mostra a série histórica completa com crescimentos variando de +31.6% (2023) a +103.9% (2021). Abaixo, a opção "Dados por País" oferece um dropdown "Escolha o país" (com China selecionado) e exibe três métricas KPI:
+- Total Histórico: 24,305,042
+- Média Anual: 1,736,074
+- Anos com Dados: 14
+
+Esta aba responde à necessidade de exploração granular dos dados brutos, permitindo aos usuários validar cálculos, extrair números específicos e realizar análises personalizadas além das visualizações pré-configuradas.
 
 ---
 
