@@ -272,10 +272,7 @@ Daniel Teixeira
 
 Kauê Pereira 
 
-Marcos Vinicius 
-
-Felipe Pinheiro
-
 Pedro Melo 
+
 
 Ciência de Dados - 2°Semestre - Noturno
