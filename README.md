@@ -279,7 +279,3 @@ Felipe Pinheiro
 Pedro Melo 
 
 Ciência de Dados - 2°Semestre - Noturno
-
----
-
-Nota: Para adicionar as capturas de tela, crie uma pasta "screenshots" na raiz do projeto e salve as imagens com os nomes: visao_geral.png, tendencias.png, comparacao.png, dados.png, sidebar.png
