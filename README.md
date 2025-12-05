@@ -117,7 +117,7 @@ Dashboard/
 
 ## Capturas de Tela do Dashboard
 
-### 1. Visão Geral Global - Parte Superior
+### 1. Visão Geral Global
 ![Visão Geral - Parte 1](data/1.png)
 
 Esta tela apresenta a seção inicial do dashboard com o título principal "Dashboard de Vendas de Veículos Elétricos" e a descrição do escopo (Análise global de vendas de veículos elétricos 2010-2023). Na lateral esquerda, a sidebar escura exibe os filtros interativos: um multiselect para seleção de países (China, United States, Germany pré-selecionados), um slider de período de análise configurado entre 2015 e 2023, e um botão "Atualizar Dados da API". 
@@ -132,7 +132,7 @@ Estas métricas fornecem um panorama quantitativo imediato do mercado global de 
 
 ---
 
-### 2. Visão Geral Global - Parte Inferior
+### 2. Visão Geral Global
 ![Visão Geral - Parte 2](data/1.1.png)
 
 Continuação da primeira aba mostrando o gráfico de barras horizontais "Top 10 Mercados de Veículos Elétricos (2010-2023)". O gráfico apresenta os dez países com maiores vendas acumuladas no período, destacando:
@@ -149,7 +149,7 @@ Este gráfico responde diretamente à pergunta-chave sobre quais são os princip
 
 ---
 
-### 3. Tendências Temporais - Parte Superior
+### 3. Tendências Temporais
 ![Tendências - Parte 1](data/2.png)
 
 Aba "Tendências" mostrando a evolução temporal das vendas globais. O cabeçalho apresenta o título "Evolução Temporal e Tendências" com descrição "Análise da trajetória de crescimento do mercado de VEs ao longo de 13 anos". 
@@ -160,7 +160,7 @@ O gráfico de linha com preenchimento de área mostra a curva de vendas anuais d
 
 ---
 
-### 4. Tendências Temporais - Parte Inferior Esquerda
+### 4. Tendências Temporais
 ![Tendências - Parte 2](data/2.2.png)
 
 Continuação da aba Tendências mostrando a seção "Crescimento Ano a Ano" com subtítulo "Variação percentual comparando cada ano ao anterior". 
@@ -177,7 +177,7 @@ Abaixo da tabela, um insight destaca: "Pico de crescimento: 2021.0 com +103.9%",
 
 ---
 
-### 5. Tendências Temporais - Parte Inferior Direita
+### 5. Tendências Temporais
 ![Tendências - Parte 3](data/2.3.png)
 
 Seção "Vendas por Período" com subtítulo "Mostra como o mercado acelerou dramaticamente nos anos recentes". 
@@ -193,7 +193,7 @@ Esta agregação por períodos responde à pergunta sobre padrões temporais, de
 
 ---
 
-### 6. Comparação Entre Países - Parte Superior
+### 6. Comparação Entre Países
 ![Comparação - Parte 1](data/3.png)
 
 Aba "Comparação Entre Países" apresentando a funcionalidade mais interativa do dashboard. O gráfico de linhas múltiplas mostra a "Trajetória Comparativa" dos três países pré-selecionados (China, United States, Germany) no período 2015-2023.
@@ -266,60 +266,19 @@ Esta aba responde à necessidade de exploração granular dos dados brutos, perm
 
 ---
 
-## Tecnologias Utilizadas
-
-- Streamlit: Framework para criação de dashboards interativos
-- Pandas: Manipulação e análise de dados
-- Plotly: Visualizações interativas e gráficos
-- Requests: Cliente HTTP para consumo da API
-- Python 3.12: Linguagem de programação
-
----
-
-## Requisitos Funcionais Atendidos
-
-### Conceitos de Ciência de Dados
-- Coleta via API: Busca automatizada de dados do Our World in Data
-- Armazenamento local: Cache de dados em arquivo CSV (data/ev_sales_global.csv)
-- Processamento e limpeza: Remoção de valores nulos, conversão de tipos, criação de colunas derivadas
-- Análise exploratória: Múltiplas visualizações, KPIs, insights e métricas calculadas
-
-### Interface e Dashboard
-- Streamlit: 100% construído com Streamlit
-- Interatividade: 5 elementos interativos (multiselect, slider, radio, selectbox, button)
-- Layout organizado: 4 tabs temáticas, títulos claros, KPIs destacados, explicações contextuais
-
----
-
-## Funcionalidades
-
-- Visualização de métricas principais (KPIs)
-- Análise geográfica com top 10 países
-- Gráficos de tendências temporais
-- Comparação interativa entre países
-- Filtros dinâmicos (países e período)
-- Exploração de dados brutos
-- Atualização automática via API (cache de 7 dias)
-- Interface em modo escuro
-- Layout responsivo
-
----
-
 ## Equipe
 
-[Adicione aqui os nomes dos membros da equipe]
+Daniel Teixeira 
 
----
+Kauê Pereira 
 
-## Licença
+Marcos Vinicius 
 
-[Adicione informações sobre licença, se aplicável]
+Felipe Pinheiro
 
----
+Pedro Melo 
 
-## Contato
-
-[Adicione informações de contato]
+Ciência de Dados - 2°Semestre - Noturno
 
 ---
 
